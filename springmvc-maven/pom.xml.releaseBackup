@@ -3,7 +3,7 @@
 	<groupId>jbr.springmvc</groupId>
 	<artifactId>spring-mvc-maven</artifactId>
 	<packaging>war</packaging>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>spring-mvc-maven Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
@@ -14,7 +14,7 @@
 		<url>https://github.com/123balu42/Spring.git</url>
 		<connection>scm:git:https://github.com/123balu42/Spring.git</connection>
 		<developerConnection>scm:git:https://github.com/123balu42/Spring.git</developerConnection>
-		<tag>spring-mvc-maven-0.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
