@@ -14,7 +14,7 @@
 		<url>https://github.com/123balu42/Spring.git</url>
 		<connection>scm:git:https://github.com/123balu42/Spring.git</connection>
 		<developerConnection>scm:git:https://github.com/123balu42/Spring.git</developerConnection>
-		<tag>springmvc-user-reg-login-0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
@@ -55,7 +55,7 @@
 				<groupId>org.apache.maven.release</groupId>
 				<artifactId>maven-release-manager</artifactId>
 				<version>3.0.0-M4</version>
-			year</plugin>
+			</plugin>
 		</plugins>
 	</build>
 </project>
