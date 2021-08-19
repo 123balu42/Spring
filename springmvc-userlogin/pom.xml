@@ -4,10 +4,16 @@
   <groupId>jbr</groupId>
   <artifactId>springmvc-user-reg-login</artifactId>
   <packaging>war</packaging>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
   <name>springmvc-user-reg-login</name>
   <url>http://maven.apache.org</url>
 
+	<scm>
+		<url>https://github.com/123balu42/Spring.git</url>
+		<connection>scm:git:https://github.com/123balu42/Spring.git</connection>
+		<developerConnection>scm:git:https://github.com/123balu42/Spring.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.version>5.2.4.RELEASE</spring.version>
@@ -91,6 +97,16 @@
           <target>${java.version}</target>
         </configuration>
       </plugin>
+	  <plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.0.0-M1</version>
+	  </plugin>
+	  <plugin>
+	      <groupId>org.apache.maven.release</groupId>
+          <artifactId>maven-release-manager</artifactId>
+          <version>3.0.0-M4</version>
+	  </plugin>
     </plugins>
   </build>
 </project>
